@@ -77,7 +77,7 @@ public class Principal {
                     valorAConvertir = lectura.nextDouble();
                     valorConvertido = valorAConvertir * razonDeCambio;
                     System.out.println("El valor " + valorAConvertir + " " + moneda.base_code() +
-                            " corresponde al valor final de =>>> " + valorConvertido + codigoConvertir);
+                            " corresponde al valor final de =>>> " + valorConvertido + "" + codigoConvertir);
                 }
             }
         } catch (InputMismatchException e){
